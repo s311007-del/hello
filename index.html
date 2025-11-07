@@ -1,52 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>唐羽欣個人網站</title>
+<title>07 唐羽欣個人網站</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
 </head>
 <body>
-    <hr>
-    <h2 style="color:#ff9900;">關於唐羽欣高中都搞了什麼抽象這件事</h2>
-    <h2 style="color:#0000ff;">探索我的學習創作歷程，分享校園生活、成長點滴</h2>
-    <h2 style="color:#6363a0;">生日:11/26射手座</h2>
-    <h2 style="color:#b5d499;">畢業學校:南投國中</h2>
-    <h2 style="color:#4848aa;">個人特色:畫圖</h2>
-    <h2 style="color:#cf6553;">期待:考上大學</h2>
-    <a href="https://www.ntsh.ntct.edu.tw/home">連結到南投高中</a>
-    <img src="1.png" alt="AI圖片">
-    <br>
-    <figure align="center">
-        <img src="images/p1.ipg"width="300">
-        <figcaption><B>AI生成作品</B></figcaption>
-    </figure>
 
-    <address align="center">
-        <a href="s311007@ntsh.ntct.edu.tw">寫信給我</a><br>
-        <a href="https://www.ntsh.ntct.edu.tw/">南投高中官網</a>
-    </address>
-    <p>我從小對畫畫充滿熱情，透過藝術表達自己。<span style="color:rgb(87, 173, 139);"></span>高中時期，我積極參與各種創作活動，並嘗試探索抽象藝術，這不僅讓我在技術上成長，也幫助我更深入了解自己的內心世界。除了畫圖，我也熱衷於學習和挑戰新事物。射手座的我總是充滿探索精神，對未來充滿期待。我希望能夠考上理想的大學，繼續發展我的藝術才能，並為社會貢獻我的創意與熱情。
+<h2 style="color:#ff9900;">關於唐羽欣高中都搞了什麼抽象這件事</h2>
+<p>探索我的學習創作歷程，分享校園生活、成長點滴</p>
+<p>我是一個射手座，生日在每年的11月26日，性格開朗、樂觀，對新事物充滿好奇心。我畢業於南投國中，對於藝術尤其是畫圖有著濃厚的興趣。從小便喜愛拿起畫筆，將腦海中的想像力轉化為色彩斑斕的作品。我的夢想是能夠考上大學，繼續在自己熱愛的領域深造，並提升自己的繪畫技巧，未來希望能在藝術的道路上發光發熱。每一步都在為自己的目標努力，期待能實現更多的夢想。</p>
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.454884983383!2d120.67827887590052!3d23.908941182670322!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34693115b0afb3b1%3A0x12636c234990a8fb!2z5Y2X5oqV6auY5Lit6Zu75a2Q5ZWG5YuZ56eR!5e0!3m2!1szh-TW!2stw!4v1760948337615!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/TKN3PDIXcV4?si=s7RKvP02O2LnBoQ1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    <iframe src="https://www.facebook.com/plugins/page.php?href=https://www.facebook.com/ntsh2231175/?locale=zh_TW&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-        width="340"
-        height="500"
-        style="border:none;overflow:hidden"
-        scrolling="no"
-        frameborder="0"
-        allowfullscreen="true"
-        allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share">
-  </iframe>
-  <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook%2Fvideos%1279088283955481%2F&width=500&show_text=false&height=280&appId"
-  width="500"
-  height="280"
-  style="border:none;overflow:hidden"
-  scrolling="no"
-  frameborder="0"
-  allowfullscreen="true"
-  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-  allowFullScreen="true">
-</iframe>
-    </body>
+<header>
+  <h2>唐羽欣個人網站</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">AI生圖</a></li>
+      <li><a href="#">我的興趣</a></li>
+      <li><a href="#">個人照片</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>AI生圖</h1>
+    <img src="images/1.png"width="300">
+    <p>這是一位年輕學生，在校園或社區活動中展現出愉快和自信的笑容。她的藍色運動服和短髮凸顯了青春的氣息，而手勢中的V字則象徵著勝利和正能量。她周圍的背景顯示出許多人共同參與一個熱鬧的活動，讓整個畫面充滿活力。</p>
+  </article>
+</section>
+
+<footer>
+  <p>版權所有 @ 2025, 國立南投高級中學. 電子商務科唐羽欣 .</p>
+</footer>
+
+</body>
 </html>
+

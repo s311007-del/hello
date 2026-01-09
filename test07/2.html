@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>電商網站</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #5b92d1;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: rgb(170, 199, 216);
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ffffff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #93bdf3;
+  /* height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #aac4e6;
+  padding: 10px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="color:#ff9900;">電商網頁</h2>
+<p>電商歷史</p>
+<p>南投高中於民國八十八年試辦綜合高中，開始成立商業類學程，有資訊應用學程、資料處理學程和電子商務學程，為配合學校整合計劃，於民國99年正式修改為職業類科，並將商業類學程整併成電子商務科。以培植優秀的電子商務人才為目的</p>
+
+<header>
+  <h2>電子商務科</h2>
+  <img src="images/2.png"width="1500">
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="1.html">科主任:劉興能</a></li>
+      <li><a href="2.html">實習主任:李冠賢</a></li>
+      <li><a href="3.html">教室設備</a></li>
+      <li><a href="index.html">回首頁</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>實習主任:李冠賢</h1>
+    <img src="images/3.png"width="300">
+    <p>專才:數位科技概論、數位科技應用、網頁設計、資料庫、電機科、資訊科</p>
+  </article>
+</section>
+
+<footer>
+  <p>版權所有 @ 2026, 國立南投高級中學. 電子商務科唐羽欣 .</p>
+</footer>
+
+</body>
+</html>
+
